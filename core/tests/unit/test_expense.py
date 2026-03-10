@@ -42,7 +42,7 @@ def test_negative_amount_raises_error():
         Expense(
             id=1,
             title="Comida",
-            amount=-10,
+            amount=-5,
             description="Almuerzo",
             expense_date=date.today(),
         )
